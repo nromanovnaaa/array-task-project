@@ -3,6 +3,7 @@ package array.main;
 import array.exception.ArrayException;
 import array.factory.ArrayFactory;
 import array.reader.ArrayReader;
+import array.repository.ArrayRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
