@@ -4,7 +4,8 @@ public class IntArray {
 
     private final int[] values;
 
-    public IntArray(int[] values) {
+    public IntArray(int id, int[] values) {
+        this.id = id;
         this.values = values.clone();
     }
 
