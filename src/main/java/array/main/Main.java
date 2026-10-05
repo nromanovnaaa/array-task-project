@@ -17,6 +17,7 @@ public class Main {
 
         ArrayReader reader = new ArrayReader();
         ArrayFactory factory = new ArrayFactory();
+        ArrayRepository repository = ArrayRepository.getInstance();
 
         List<String> lines = reader.readFile("data/arrays.txt");
 
