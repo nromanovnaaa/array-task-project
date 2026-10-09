@@ -1,11 +1,16 @@
+
 package array.factory;
 
 import array.entity.IntArray;
 
 public class ArrayFactory {
 
+    private int nextId = 1;
+
     public IntArray create(int[] values) {
-        return new IntArray(values);
+        IntArray array = new IntArray(nextId, values); // Factory assigns its own ID to each array.
+        nextId++;
+        return array;
     }
 }
 
