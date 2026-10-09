@@ -13,3 +13,124 @@
 2026-10-05 14:44:10 WARN  Invalid line: 
 2026-10-05 14:44:10 INFO  Valid line: 11- 2 - 42
 2026-10-05 14:44:10 INFO  Valid line: 5 7 9
+2026-10-05 15:15:55 INFO  Valid line: 1; 2; 3
+2026-10-05 15:15:55 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-05 15:15:55 WARN  Invalid line: 
+2026-10-05 15:15:55 INFO  Valid line: 11- 2 - 42
+2026-10-05 15:15:55 INFO  Valid line: 5 7 9
+2026-10-05 15:26:24 INFO  Valid line: 1; 2; 3
+2026-10-05 15:26:24 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-05 15:26:24 WARN  Invalid line: 
+2026-10-05 15:26:24 INFO  Valid line: 11- 2 - 42
+2026-10-05 15:26:24 INFO  Valid line: 5 7 9
+2026-10-05 15:28:26 INFO  Valid line: 1; 2; 3
+2026-10-05 15:28:26 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-05 15:28:26 WARN  Invalid line: 
+2026-10-05 15:28:26 INFO  Valid line: 11- 2 - 42
+2026-10-05 15:28:26 INFO  Valid line: 5 7 9
+2026-10-05 15:28:26 INFO  Found array with id 1
+2026-10-05 15:33:56 INFO  Valid line: 1; 2; 3
+2026-10-05 15:33:56 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-05 15:33:56 WARN  Invalid line: 
+2026-10-05 15:33:56 INFO  Valid line: 11- 2 - 42
+2026-10-05 15:33:56 INFO  Valid line: 5 7 9
+2026-10-05 15:33:56 INFO  Found array with id 1
+2026-10-05 15:33:56 INFO  Arrays with sum 6: 1
+2026-10-08 12:39:35 INFO  Valid line: 1; 2; 3
+2026-10-08 12:39:35 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-08 12:39:35 WARN  Invalid line: 
+2026-10-08 12:39:35 INFO  Valid line: 11- 2 - 42
+2026-10-08 12:39:35 INFO  Valid line: 5 7 9
+2026-10-08 12:39:35 INFO  Found array with id 1
+2026-10-08 12:39:35 INFO  Arrays with sum 6: 1
+2026-10-08 12:39:35 INFO  Arrays with max 42: 1
+2026-10-08 12:44:47 INFO  Valid line: 1; 2; 3
+2026-10-08 12:44:47 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-08 12:44:47 WARN  Invalid line: 
+2026-10-08 12:44:47 INFO  Valid line: 11- 2 - 42
+2026-10-08 12:44:47 INFO  Valid line: 5 7 9
+2026-10-08 12:44:47 INFO  Found array with id 1
+2026-10-08 12:44:47 INFO  Arrays with sum 6: 1
+2026-10-08 12:44:47 INFO  Arrays with max 42: 1
+2026-10-08 12:44:47 INFO  Arrays with min 1: 1
+2026-10-08 12:47:09 INFO  Valid line: 1; 2; 3
+2026-10-08 12:47:09 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-08 12:47:09 WARN  Invalid line: 
+2026-10-08 12:47:09 INFO  Valid line: 11- 2 - 42
+2026-10-08 12:47:09 INFO  Valid line: 5 7 9
+2026-10-08 12:47:09 INFO  Found array with id 1
+2026-10-08 12:47:09 INFO  Arrays with sum 6: 1
+2026-10-08 12:47:09 INFO  Arrays with max 42: 1
+2026-10-08 12:47:09 INFO  Arrays with min 1: 1
+2026-10-08 12:47:09 INFO  Arrays with average 2.0: 1
+2026-10-08 12:50:40 INFO  Valid line: 1; 2; 3
+2026-10-08 12:50:40 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-08 12:50:40 WARN  Invalid line: 
+2026-10-08 12:50:40 INFO  Valid line: 11- 2 - 42
+2026-10-08 12:50:40 INFO  Valid line: 5 7 9
+2026-10-08 12:50:40 INFO  Found array with id 1
+2026-10-08 12:50:40 INFO  Arrays with sum 6: 1
+2026-10-08 12:50:40 INFO  Arrays with max 42: 1
+2026-10-08 12:50:40 INFO  Arrays with min 1: 1
+2026-10-08 12:50:40 INFO  Arrays with average 2.0: 1
+2026-10-08 12:50:40 INFO  Arrays sorted by ID: 3
+2026-10-08 12:52:20 INFO  Valid line: 1; 2; 3
+2026-10-08 12:52:20 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-08 12:52:20 WARN  Invalid line: 
+2026-10-08 12:52:20 INFO  Valid line: 11- 2 - 42
+2026-10-08 12:52:20 INFO  Valid line: 5 7 9
+2026-10-08 12:52:20 INFO  Found array with id 1
+2026-10-08 12:52:20 INFO  Arrays with sum 6: 1
+2026-10-08 12:52:20 INFO  Arrays with max 42: 1
+2026-10-08 12:52:20 INFO  Arrays with min 1: 1
+2026-10-08 12:52:20 INFO  Arrays with average 2.0: 1
+2026-10-08 12:52:20 INFO  Arrays sorted by ID: 3
+2026-10-08 12:52:20 INFO  Arrays sorted by size: 3
+2026-10-08 13:13:17 INFO  Valid line: 1; 2; 3
+2026-10-08 13:13:17 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-08 13:13:17 WARN  Invalid line: 
+2026-10-08 13:13:17 INFO  Valid line: 11- 2 - 42
+2026-10-08 13:13:17 INFO  Valid line: 5 7 9
+2026-10-08 13:13:17 INFO  Found array with id 1
+2026-10-08 13:13:17 INFO  Arrays with sum 6: 1
+2026-10-08 13:13:17 INFO  Arrays with max 42: 1
+2026-10-08 13:13:17 INFO  Arrays with min 1: 1
+2026-10-08 13:13:17 INFO  Arrays with average 2.0: 1
+2026-10-08 13:13:17 INFO  Arrays sorted by ID: 3
+2026-10-08 13:13:17 INFO  Arrays sorted by size: 3
+2026-10-08 13:13:17 INFO  New sum: 15
+2026-10-08 13:13:17 INFO  New average: 5.0
+2026-10-08 13:13:17 INFO  New min: 2
+2026-10-08 13:13:17 INFO  New max: 10
+2026-10-09 09:13:48 INFO  Valid line: 1; 2; 3
+2026-10-09 09:13:48 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-09 09:13:48 WARN  Invalid line: 
+2026-10-09 09:13:48 INFO  Valid line: 11- 2 - 42
+2026-10-09 09:13:48 INFO  Valid line: 5 7 9
+2026-10-09 09:13:48 INFO  Found array with id 1
+2026-10-09 09:13:48 INFO  Arrays with sum 6: 1
+2026-10-09 09:13:48 INFO  Arrays with max 42: 1
+2026-10-09 09:13:48 INFO  Arrays with min 1: 1
+2026-10-09 09:13:48 INFO  Arrays with average 2.0: 1
+2026-10-09 09:13:48 INFO  Arrays sorted by ID: 3
+2026-10-09 09:13:48 INFO  Arrays sorted by size: 3
+2026-10-09 09:13:48 INFO  New sum: 15
+2026-10-09 09:13:48 INFO  New average: 5.0
+2026-10-09 09:13:48 INFO  New min: 2
+2026-10-09 09:13:48 INFO  New max: 10
+2026-10-09 09:26:02 INFO  Valid line: 1; 2; 3
+2026-10-09 09:26:02 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-09 09:26:02 WARN  Invalid line: 
+2026-10-09 09:26:02 INFO  Valid line: 11- 2 - 42
+2026-10-09 09:26:02 INFO  Valid line: 5 7 9
+2026-10-09 09:26:02 INFO  Found array with id 1
+2026-10-09 09:26:02 INFO  Arrays with sum 6: 1
+2026-10-09 09:26:02 INFO  Arrays with max 42: 1
+2026-10-09 09:26:02 INFO  Arrays with min 1: 1
+2026-10-09 09:26:02 INFO  Arrays with average 2.0: 1
+2026-10-09 09:26:02 INFO  Arrays sorted by ID: 3
+2026-10-09 09:26:02 INFO  Arrays sorted by size: 3
+2026-10-09 09:26:02 INFO  New sum: 15
+2026-10-09 09:26:02 INFO  New average: 5.0
+2026-10-09 09:26:02 INFO  New min: 2
+2026-10-09 09:26:02 INFO  New max: 10
