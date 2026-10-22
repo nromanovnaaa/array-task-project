@@ -1,11 +1,11 @@
-package array.main;
+package com.kachanova.array.main;
 
-import array.entity.IntArray;
-import array.exception.ArrayException;
-import array.factory.ArrayFactory;
-import array.reader.ArrayReader;
-import array.repository.ArrayRepository;
-import array.warehouse.Warehouse;
+import com.kachanova.array.entity.IntArray;
+import com.kachanova.array.exception.ArrayException;
+import com.kachanova.array.factory.ArrayFactory;
+import com.kachanova.array.reader.ArrayReader;
+import com.kachanova.array.repository.ArrayRepository;
+import com.kachanova.array.warehouse.Warehouse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -32,12 +32,6 @@ public class Main {
             } else {
                 LOGGER.warn("Invalid line: {}", line);
             }
-        }
-
-        IntArray array = repository.findById(1);
-
-        if (array != null) {
-            LOGGER.info("Found array with id 1");
         }
 
         List<IntArray> arrays = repository.findBySum(6);

@@ -1,7 +1,7 @@
 
-package array.factory;
+package com.kachanova.array.factory;
 
-import array.entity.IntArray;
+import com.kachanova.array.entity.IntArray;
 
 public class ArrayFactory {
 

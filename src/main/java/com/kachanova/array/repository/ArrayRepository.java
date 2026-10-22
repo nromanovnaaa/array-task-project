@@ -1,9 +1,9 @@
-package array.repository;
+package com.kachanova.array.repository;
 
-import array.entity.IntArray;
-import array.observer.ArrayObserver;
-import array.observer.WarehouseObserver;
-import array.warehouse.Warehouse;
+import com.kachanova.array.entity.IntArray;
+import com.kachanova.array.observer.ArrayObserver;
+import com.kachanova.array.observer.WarehouseObserver;
+import com.kachanova.array.warehouse.Warehouse;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -43,6 +43,11 @@ public class ArrayRepository {
         }
     }
 
+    // Returns all arrays without exposing the internal list
+    public List<IntArray> getAll() {
+        return new ArrayList<>(arrays);
+    }
+
     // Finds an array by its ID
     public IntArray findById(int id) {
         for (IntArray array : arrays) {
@@ -54,10 +59,6 @@ public class ArrayRepository {
         return null;
     }
 
-    // Returns all arrays without exposing the internal list
-    public List<IntArray> getAll() {
-        return new ArrayList<>(arrays);
-    }
 
     // Finds arrays with the specified sum
     public List<IntArray> findBySum(int sum) {
@@ -427,15 +428,18 @@ public class ArrayRepository {
         }
     }
 
+
     // Changes an element and updates the array statistics
     public void updateElement(int id, int index, int value) {
-        IntArray array = findById(id);
-
-        if (array != null) {
-            array.setValue(index, value);
-            notifyObservers(array);
+        for (IntArray array : arrays) {
+            if (array.getId() == id) {
+                array.setValue(index, value);
+                notifyObservers(array);
+                break;
+            }
         }
     }
+
 
     // Calculates the sum of all elements
     private int calculateSum(int[] values) {

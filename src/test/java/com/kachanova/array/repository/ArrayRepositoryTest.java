@@ -1,9 +1,9 @@
 // This package contains the test class for ArrayRepository
-package array.repository;
+package com.kachanova.array.repository;
 
 
 // Imports the IntArray class because we create and use IntArray objects in tests
-import array.entity.IntArray;
+import com.kachanova.array.entity.IntArray;
 
 // Imports @BeforeEach annotation from JUnit 5
 // This annotation tells JUnit to run the marked method before every test

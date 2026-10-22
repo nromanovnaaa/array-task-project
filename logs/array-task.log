@@ -134,3 +134,19 @@
 2026-10-09 09:26:02 INFO  New average: 5.0
 2026-10-09 09:26:02 INFO  New min: 2
 2026-10-09 09:26:02 INFO  New max: 10
+2026-10-21 12:56:44 INFO  Valid line: 1; 2; 3
+2026-10-21 12:56:44 WARN  Invalid line: 1, 2, x3, 6..5, 77
+2026-10-21 12:56:44 WARN  Invalid line: 
+2026-10-21 12:56:44 INFO  Valid line: 11- 2 - 42
+2026-10-21 12:56:44 INFO  Valid line: 5 7 9
+2026-10-21 12:56:44 INFO  Found array with id 1
+2026-10-21 12:56:44 INFO  Arrays with sum 6: 1
+2026-10-21 12:56:44 INFO  Arrays with max 42: 1
+2026-10-21 12:56:44 INFO  Arrays with min 1: 1
+2026-10-21 12:56:44 INFO  Arrays with average 2.0: 1
+2026-10-21 12:56:44 INFO  Arrays sorted by ID: 3
+2026-10-21 12:56:44 INFO  Arrays sorted by size: 3
+2026-10-21 12:56:44 INFO  New sum: 15
+2026-10-21 12:56:44 INFO  New average: 5.0
+2026-10-21 12:56:44 INFO  New min: 2
+2026-10-21 12:56:44 INFO  New max: 10

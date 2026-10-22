@@ -1,6 +1,6 @@
-package array.service;
+package com.kachanova.array.service;
 
-import array.entity.IntArray;
+import com.kachanova.array.entity.IntArray;
 
 import java.util.OptionalDouble;
 import java.util.OptionalInt;
